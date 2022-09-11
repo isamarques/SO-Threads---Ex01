@@ -2,7 +2,6 @@ package controller;
 
 public class ThreadVetor extends Thread {
 	
-	
 	public ThreadVetor(int num, int[] vet) {
 		
 		if (num % 2 == 0) {
@@ -20,7 +19,7 @@ public class ThreadVetor extends Thread {
 			}
 			double tempoFinal = System.nanoTime();
 			double tempoTotal = tempoFinal - tempoInicial;
-			System.out.println("Õmpar, tempo total de " + tempoTotal + "s.");
+			System.out.println("√çmpar, tempo total de " + tempoTotal + "s.");
 		}
 	}
 	
